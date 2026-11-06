@@ -6,16 +6,15 @@
         android:allowBackup="false"
         android:label="Re:Store"
         android:theme="@android:style/Theme.Material.NoActionBar"
-        android:usesCleartextTraffic="false"
         android:supportsRtl="true">
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.restore.photorecovery.MainActivity"
             android:exported="true">
 
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
         </activity>
